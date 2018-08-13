@@ -1,3 +1,4 @@
+from __future__ import unicode_literals
 from copy import deepcopy
 
 from snips_nlu.pipeline.configs import ProcessingUnitConfig
