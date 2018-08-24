@@ -287,8 +287,6 @@ class TestIntentClassifierConfig(ProcessingUnitConfig):
     def from_dict(cls, obj_dict):
         return TestIntentClassifierConfig()
 
-    def get_required_resources(self):
-        return None
 
 # pylint: disable=abstract-method
 class TestIntentClassifier(IntentClassifier):
@@ -323,9 +321,6 @@ class TestSlotFillerConfig(ProcessingUnitConfig):
     @classmethod
     def from_dict(cls, obj_dict):
         return TestSlotFillerConfig()
-
-    def get_required_resources(self):
-        return None
 
 
 # pylint: disable=abstract-method
